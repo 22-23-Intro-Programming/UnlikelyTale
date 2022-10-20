@@ -10,14 +10,9 @@ for f in range(2):
 
     if choose == 1:
         name = input("Please enter your name: ")
-        age = int(input("Please enter your age: "))
-        height = float(input("please enter your height: "))
-    
         print("Oh,"+name+", is it? It is nice to meet you!")
         print("Have a good day "+name)
-        print("You are "+str(age)+" years old")
-        print("You are "+str(height)+"cm tall")
-
+ 
     elif choose == 2:
         a = int(input("type the larger number: "))
         b = int(input("type the lower number: "))
