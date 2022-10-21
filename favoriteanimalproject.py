@@ -1,6 +1,6 @@
 class Dog:
 
-    def __init__(self, Name, Age):
+    def __init__(self):
         self.size = "small"
         self.age = 2
         self.color = "black"
