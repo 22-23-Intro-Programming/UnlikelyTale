@@ -119,7 +119,7 @@ def main():
     B2 = Button(win, Point(600, 200), Point(700, 275), "tomato", "Lighten")
     B3 = Button(win, Point(600, 300), Point(700, 375), "tomato", "Grayscale")
     B4 = Button(win, Point(600, 400), Point(700, 475), "tomato", "contrast")
-    Q = Button(win, Point(600, 590), Point(700, 555), "misty rose", "QUIT")
+    Q = Button(win, Point(600, 555), Point(700, 590), "misty rose", "QUIT")
 
     while True:
         m = win.getMouse()
